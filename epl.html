@@ -5,19 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live Scores</title>
     <style>
-        body {
+        html, body {
             margin: 0;
             padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
+            height: 100%;
             background-color: rgb(24, 25, 26);
+            overflow: hidden;
         }
         .iframe-wrapper {
             width: 100%;
-            max-width: 500px;
-            height: 100vh;
+            height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -25,8 +22,7 @@
         .iframe_container {
             border: none;
             width: 100%;
-            height: 800px;
-            max-width: 500px;
+            height: 100%;
             background-color: rgb(24, 25, 26);
             color: rgb(176, 243, 208);
         }
